@@ -42,7 +42,7 @@ class ViewController: UIViewController
         self.leftBtn?.setTitle("Edit", for: UIControlState.normal)
         self.leftBtn!.tag = 100
         self.leftBtn!.isUserInteractionEnabled = false
-        self.leftBtn?.addTarget(self, action: #selector(ViewController.leftBarButtonItemClicked), for: UIControlEvents.touchUpInside)
+        self.leftBtn?.addTarget(self, action: #selector(leftBarButtonItemClicked), for: UIControlEvents.touchUpInside)
         let barButtonItem = UIBarButtonItem(customView: self.leftBtn!)
         self.navigationItem.leftBarButtonItem = barButtonItem
     }

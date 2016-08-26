@@ -249,8 +249,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.myyij.swiftdemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "12564c0f-ac0b-4cb4-aa2f-7d736164b504";
-				PROVISIONING_PROFILE_SPECIFIER = MyyijGeneralProv;
+				PROVISIONING_PROFILE = "3a1575b3-5919-47f3-bc84-1bec4a428275";
+				PROVISIONING_PROFILE_SPECIFIER = SwiftDemo;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
